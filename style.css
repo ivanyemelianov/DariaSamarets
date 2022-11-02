@@ -6,6 +6,7 @@
 .header {
     border-bottom: 1px solid #F5F5DC;
     margin-bottom: 4em;
+    background-color: rgb(228, 228, 228);
 }
 
 .logo {
