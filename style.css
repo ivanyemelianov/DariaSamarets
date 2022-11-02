@@ -1,0 +1,114 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    border-bottom: 1px solid #F5F5DC;
+    margin-bottom: 4em;
+}
+
+.logo {
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+.logo h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 3em;
+}
+
+.card {
+    margin-bottom: 2em;
+}
+
+.card img {
+    height: 200px;
+    border: 1px solid #000;
+    border-radius: 0;
+}
+
+.card button {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-top: none;
+    background: none;
+    padding: 10px 0;
+    transition: .75s ease;
+}
+
+.card button:hover {
+    background: beige;
+}
+
+.footer {
+    border-top: 1px solid #F5F5DC;
+    margin-top: 4em;
+}
+
+.copyright {
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+/* The Modal (background) */
+.modal, .modal-1, .modal-2, .modal-3, .modal-4, .modal-5, .modal-6, .modal-7, .modal-7, .modal-8, .modal-9, .modal-10, .modal-11, .modal-12, .modal-13, .modal-14, .modal-15, .modal-16, .modal-17, .modal-18 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.modal-content span {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.modal-content span:hover,
+.modal-content span:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+.content-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 20px 0;
+}
+
+.image {
+    width: 60%;
+}
+
+.image img {
+    width: 100%;
+}
+
+.proj-descr {
+    width: 40%;
+}
+
+.proj-descr p, .proj-descr h2 {
+    margin-left: 30px;
+}
