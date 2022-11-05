@@ -14,19 +14,47 @@
     padding: 1.5em 0;
 }
 
-.logo h1 {
+.logo a {
+    color: #000;
+    text-decoration: none;
+    transition: .5s ease;
+}
+
+.logo a:hover {
+    color: rgb(67, 67, 67);
+}
+
+.logo a h1 {
     font-family: 'Italiana', serif;
     font-size: 3em;
 }
 
 .card {
     margin-bottom: 2em;
+    border: none;
 }
 
 .card img {
     height: 200px;
+    width: 100%;
+}
+
+.card a {
+    text-decoration: none;
+    color: #000;
     border: 1px solid rgb(131, 131, 131);
     border-radius: 0;
+    text-align: center;
+    transition: .5s ease;
+}
+
+.card a:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card a p {
+    margin: 0;
+    padding: 15px;
 }
 
 .card button {
